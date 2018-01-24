@@ -1,12 +1,11 @@
 ## MNIST tensorflow code 99.53% (Xavier, batch norm, L2 reg, Learning rate decay)
 **이 튜토리얼은 최근에 많이 사용하는 다음과 같은 방법을 사용하였고, 작성자가 모두 직접 코딩을 하여 작성하였습니다.**
-
 **(Very low API)**
 
-**1. Xavier_initializer**
-**2. Batch_normalization**
-**3. L2_regularization**
-**4. Learning_rate_decay**
+1. Xavier_initializer
+2. Batch_normalization
+3. L2_regularization
+4. Learning_rate_decay
 
 **또한 위의 .py 파일은 Cost(Loss)함수, Learning_rate_decay, 텐서플로우 Graph의 모습을 확인하기 위한 tensorboard 관련 코드, saver를 이용하여 check point 파일을 불러오는 예제 코드를 모두 포함하고 있습니다.**
 _ _ _
