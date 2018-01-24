@@ -6,7 +6,7 @@
 3. L2_regularization
 4. Learning_rate_decay
 
-**또한 위의 .py 파일은 Cost(Loss)함수, Learning_rate_decay, 텐서플로우 Graph의 모습을 확인하기 위한 tensorboard 관련 코드**
+**또한, 위의 .py 파일은 Cost(Loss)함수, Learning_rate_decay, 텐서플로우 Graph의 모습을 확인하기 위한 tensorboard 관련 코드,**
 **saver를 이용하여 check point 파일을 불러오는 예제 코드를 모두 포함하고 있습니다.**
 _ _ _
 ### 1. 작성자 컴퓨터 사양 및 프로그램 버전
