@@ -29,7 +29,9 @@ _ _ _
 #### 2.Batch_ normalization
 ![사진2](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/bach_norm1_code.PNG)
 ![사진3](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/batch_norm2_code.PNG)
-**위의 batch_norm코드의 경우 phase(train or test)를 작성자가 직접 입력하는 것(FLAGS)이므로 최적화를 할 때 따로 위의 두개 이외의 코드를 작성할 필요가 없습니다**
+
+**위의 batch_norm코드의 경우 phase(train or test)를 작성자가 직접 입력하는 것(FLAGS)이므로 최적화를 할 때 따로 위의 두개 이외의 코드를**
+**작성할 필요가 없습니다**
 
 ##### 3. L2_regularization
 ![사진4](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/regularization_code.PNG)
