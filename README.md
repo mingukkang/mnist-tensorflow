@@ -1,5 +1,5 @@
 ## MNIST tensorflow code 99.53% (Xavier, batch norm, L2 reg, Learning rate decay)
-***이 튜토리얼은 최근에 많이 사용하는 다음과 같은 방법을 사용하였고, 작성자가 모두 직접 코딩을 하여 작성하였습니다.***
+**이 튜토리얼은 최근에 많이 사용하는 다음과 같은 방법을 사용하였고, 작성자가 모두 직접 코딩을 하여 작성하였습니다.**
 
 **(Very low API)**
 
