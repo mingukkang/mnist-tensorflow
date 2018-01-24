@@ -18,9 +18,7 @@ def train():
     hypothesis, l2 = main.network(X,FLAGS.phase)
     cost = tf.reduce_mean(tf.losses.softmax_cross_entropy(Y,hypothesis)) + l2
     learning_rate_decayed= FLAGS.learning_rate * FLAGS.decay_rate** (global_step / FLAGS.decay_step)
-    update_ops = tf.get_collection(tf.GraphKeys.TRAINABLE_VARIABLES)
-    with tf.control_dependencies(update_ops):
-        optimizer = tf.train.AdamOptimizer(learning_rate_decayed).minimize(cost,global_step = global_step)
+    optimizer = tf.train.AdamOptimizer(learning_rate_decayed).minimize(cost,global_step = global_step)
     is_correct = tf.equal(tf.argmax(hypothesis,1), tf.argmax(Y,1))
     Accuracy = tf.reduce_mean(tf.cast(is_correct,dtype = tf.float32))
     Learning_rate_summary = tf.summary.scalar("Learning_rate", learning_rate_decayed)
