@@ -33,10 +33,10 @@ _ _ _
 **위의 batch_norm코드의 경우 phase(train or test)를 작성자가 직접 입력하는 것(FLAGS)이므로 최적화를 할 때 따로 위의 두개 이외의 코드를**
 **작성할 필요가 없습니다**
 
-##### 3. L2_regularization
+#### 3. L2_regularization
 ![사진4](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/regularization_code.PNG)
 
-##### 4. learning_rate_decay
+#### 4. learning_rate_decay
 ![사진5](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/learning_rate_decay_code.PNG)
 _ _ _
 ### 3. Model
