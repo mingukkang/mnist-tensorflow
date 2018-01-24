@@ -34,6 +34,7 @@ _ _ _
 **작성할 필요가 없습니다**
 
 
+
 #### 3. L2_regularization
 ![사진4](https://github.com/MINGUKKANG/mnist_tensorflow/blob/master/images/regularization_code.PNG)
 
